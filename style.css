@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+}
+
+/* 
+- Font Sizes (px):
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing System (px):
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+.options-container {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+
+.menu-icon {
+  height: 4rem;
+  width: 4rem;
+  background-color: #c0f6d4;
+  padding: 1rem;
+  border-radius: 50%;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.1);
+}
+
+.tools-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 6rem;
+  width: 80vw;
+  background-color: #c0f6d4;
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+
+  position: absolute;
+  top: 2rem;
+  left: 16vw;
+}
+
+.tools-container img {
+  display: block;
+  width: 4rem;
+}
+
+.pencil-tools {
+  background-color: rgba(192, 246, 212, 0.418);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  height: 5rem;
+  width: 10rem;
+
+  position: absolute;
+  top: 8rem;
+  left: 16vw;
+}
+
+.pencil-width {
+  height: 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pencil-width input {
+  width: 80%;
+}
+
+.pencil-colors {
+  height: calc(100% - 2rem);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.pencil-color {
+  width: 1.5rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+.black {
+  background-color: #000;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.eraser-tools {
+  background-color: rgba(192, 246, 212, 0.418);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.1);
+  height: 3rem;
+  width: 10rem;
+
+  position: absolute;
+  top: 8rem;
+  left: 29vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.eraser-tools input {
+  width: 80%;
+}

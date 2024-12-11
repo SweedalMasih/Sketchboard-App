@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Sketch Board</title>
+  </head>
+  <body>
+    <div class="options-container">
+      <ion-icon class="menu-icon" name="menu-outline"></ion-icon>
+    </div>
+
+    <div class="tools-container">
+      <img src="public/icons/Pencil.svg" alt="" />
+      <img src="public/icons/Eraser.svg" alt="" />
+      <img src="public/icons/Download.svg" alt="" />
+      <img src="public/icons/Upload.svg " alt="" />
+      <img src="public/icons/StickyNote.svg" alt="" />
+      <img src="public/icons/Undo.svg" alt="" />
+      <img src="public/icons/Redo.svg" alt="" />
+    </div>
+
+    <div class="pencil-tools">
+      <div class="pencil-width">
+        <input type="range" name="" id="" min="2" max="10" value="3" />
+      </div>
+      <div class="pencil-colors">
+        <div class="pencil-color black"></div>
+        <div class="pencil-color red"></div>
+        <div class="pencil-color blue"></div>
+      </div>
+    </div>
+
+    <div class="eraser-tools">
+      <input type="range" name="" id="" min="2" max="10" value="3" />
+    </div>
+
+    <script src="tools.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+  </body>
+</html>
